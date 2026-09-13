@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>សាកលវិទ្យាល័យស្វាយរៀង - Svay Rieng University</title>
+    <!-- Google Font សម្រាប់អក្សរខ្មែរស្អាត -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #0b5ed7;
+            --primary-dark: #084298;
+            --secondary-color: #f0f4f9;
+            --text-color: #2b3035;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: 'Kantumruy Pro', sans-serif;
+            background-color: #f4f7f6;
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 35px 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Heading & Header Styles */
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #495057;
+            font-size: 20px;
+            margin-top: 0;
+            font-weight: 500;
+        }
+
+        h3 {
+            color: var(--primary-dark);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image Styling */
+        .banner-img {
+            width: 100%;
+            max-height: 380px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Lists */
+        ul, ol {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* Form Styling */
+        fieldset {
+            border: 1.5px solid #ced4da;
+            border-radius: 10px;
+            padding: 20px 25px;
+            background-color: #fafbfc;
+            margin-top: 15px;
+        }
+
+        legend {
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 0 10px;
+        }
+
+        .form-group {
+            margin-bottom: 14px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 9px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus,
+        input[type="date"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+        }
+
+        .radio-group, .checkbox-group {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        .checkbox-group {
+            margin: 15px 0;
+        }
+
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: inherit;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ចំណងជើង & ការណែនាំ (Header & Intros) -->
+        <h1>សូមស្វាគមន៍មកកាន់ សាកលវិទ្យាល័យស្វាយរៀង</h1>
+        <h2>Svay Rieng University (SRU) - ចំណេះដឹង គុណធម៌ នវានុវត្តន៍</h2>
+
+        <p>ចូលមើលរូបភាពបន្ថែមអំពីសាកលវិទ្យាល័យ៖ <a href="http://www.sru.edu.kh" target="_blank">ទស្សនាវិចិត្រសាលរូបភាព (Gallery)</a></p>
+
+        <!-- រូបភាពតំណាងសាកលវិទ្យាល័យ -->
+        <img class="banner-img" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80" alt="បរិវេណសាកលវិទ្យាល័យ">
+
+        <!-- បញ្ជីគ្មានលំដាប់ (Unordered List) -->
+        <h3>មហាវិទ្យាល័យក្នុងសាកលវិទ្យាល័យ</h3>
+        <p><strong>មហាវិទ្យាល័យដែលកំពុងបណ្ដុះបណ្ដាល៖</strong></p>
+        <ul>
+            <li>មហាវិទ្យាល័យវិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យា (Faculty of Science and Technology)</li>
+            <li>មហាវិទ្យាល័យគ្រប់គ្រងពាណិជ្ជកម្ម (Faculty of Business Administration)</li>
+            <li>មហាវិទ្យាល័យកសិកម្ម (Faculty of Agriculture)</li>
+            <li>មហាវិទ្យាល័យសិល្បៈ មនុស្សសាស្ត្រ និងភាសា (Faculty of Arts, Humanities and Languages)</li>
+        </ul>
+
+        <!-- បញ្ជីមានលំដាប់លេខ (Ordered List) -->
+        <h3>ជំហានចុះឈ្មោះចូលរៀន</h3>
+        <p><strong>លំដាប់លំដោយសម្រាប់និស្សិតថ្មី៖</strong></p>
+        <ol>
+            <li>បំពេញពាក្យស្នើសុំតាមប្រព័ន្ធ ឬដោយផ្ទាល់នៅសាលា</li>
+            <li>ភ្ជាប់ឯកសារបញ្ជាក់ការសិក្សា (សញ្ញាបត្របាក់ឌុប)</li>
+            <li>ជ្រើសរើសវេនសិក្សា និងបង់ថ្លៃចុះឈ្មោះ</li>
+        </ol>
+
+        <!-- តារាងព័ត៌មាន (Table ជាមួយ Colspan & Rowspan) -->
+        <h3>តារាងថ្នាក់ដឹកនាំ និងមហាវិទ្យាល័យ (Faculty Lists)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" style="width: 10%;">ល.រ</th>
+                    <th colspan="2">ព័ត៌មានមហាវិទ្យាល័យ</th>
+                </tr>
+                <tr>
+                    <th style="width: 50%;">ឈ្មោះមហាវិទ្យាល័យ</th>
+                    <th>ដេប៉ាតឺម៉ង់សំខាន់ៗ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td>វិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យា</td>
+                    <td>Computer Science & IT</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td>គ្រប់គ្រងពាណិជ្ជកម្ម</td>
+                    <td>Accounting, Marketing, Management</td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td>សិល្បៈ មនុស្សសាស្ត្រ និងភាសា</td>
+                    <td>English Literature</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ទម្រង់បែបបទចុះឈ្មោះ/ទំនាក់ទំនង (Form) -->
+        <h3>ទម្រង់បែបបទចុះឈ្មោះសិក្សា (Registration Form)</h3>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>ព័ត៌មានផ្ទាល់ខ្លួន (Student Details)</legend>
+
+                <div class="form-group">
+                    <label for="name">ឈ្មោះពេញ (Full Name)</label>
+                    <input type="text" id="name" name="name" placeholder="បញ្ចូលឈ្មោះរបស់អ្នក..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">ថ្ងៃខែឆ្នាំកំណើត (Date of Birth)</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pob">ទីកន្លែងកំណើត (Place of Birth)</label>
+                    <select id="pob" name="pob">
+                        <option value="">-- សូមជ្រើសរើសខេត្ត/ក្រុង --</option>
+                        <option value="Svay Rieng" selected>ខេត្តស្វាយរៀង (Svay Rieng)</option>
+                        <option value="Phnom Penh">រាជធានីភ្នំពេញ (Phnom Penh)</option>
+                        <option value="Prey Veng">ខេត្តព្រៃវែង (Prey Veng)</option>
+                        <option value="Other">ខេត្តផ្សេងទៀត (Other)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">អ៊ីមែល (Email)</label>
+                    <input type="email" id="email" name="email" placeholder="example@sru.edu.kh" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">ពាក្យសម្ងាត់ (Password)</label>
+                    <input type="password" id="password" name="password" placeholder="បញ្ចូលពាក្យសម្ងាត់..." required>
+                </div>
+
+                <div class="form-group">
+                    <label>ភេទ (Gender)</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="Female"> ស្រី (Female)</label>
+                        <label><input type="radio" name="gender" value="Male"> ប្រុស (Male)</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="terms" required> ខ្ញុំយល់ព្រមតាមលក្ខខណ្ឌ និងបទបញ្ជាផ្ទៃក្នុងរបស់សាលា (Terms & Conditions)</label>
+                </div>
+
+                <input type="submit" value="ចុះឈ្មោះឥឡូវនេះ (Submit)">
+            </fieldset>
+        </form>
+
+        <!-- Footer -->
+        <footer>
+            Copyright &copy; 2026 <a href="http://www.sru.edu.kh">សាកលវិទ្យាល័យស្វាយរៀង (SRU)</a>. រក្សាសិទ្ធិគ្រប់យ៉ាង។
+        </footer>
+    </div>
+
+</body>
+</html>
